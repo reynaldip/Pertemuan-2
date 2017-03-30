@@ -1,0 +1,35 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+
+{
+    //  Program untuk membaca data panjang, lebar dan tinggi balok, hitung luas permukaan Balok dan volume Balok
+
+    int panjang;
+    int lebar;
+    int tinggi;
+    float volume;
+    float lpermukaan;
+
+    cout << "Masukan Panjang : ";
+    cin >> panjang;
+
+    cout << "Masukan Lebar   : ";
+    cin >> lebar;
+
+    cout << "Masukan Tinggi  : ";
+    cin >> tinggi;
+
+    volume = panjang*lebar*tinggi;
+    lpermukaan = (2*panjang*lebar)+(2*panjang*tinggi)+(2*lebar*tinggi);
+
+    system("cls");
+
+    cout << "Volume dan Luas Permukaan Balok"<<endl;
+    cout << "Volume           : " <<volume <<endl;
+    cout << "Luas Permukaan   : " <<lpermukaan <<endl;
+    return 0;
+
+
+}
