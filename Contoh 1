@@ -1,0 +1,42 @@
+//contoh pendefinisian variabel
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char kar;       //pendefinisian variabel kar
+    kar = 'A';      // penugasan 'A' ke variabel
+
+    int bil;
+    bil = 12345;
+
+    long jum_penduduk;
+    jum_penduduk = 123456789;
+
+    float bil_float;
+    bil_float = 1.23e2;
+
+    float a;
+    double b;
+    a = 20.0123456789123456789;
+    b = 20.0123456789123456789;
+
+    cout <<"isi kar             = "<<kar<<'\n';
+    kar = 20;   //penugasan nilai ASCII ke karakter
+
+    cout <<"isi kar             = "<<kar<<'\n';
+    cout <<"isi bil             = "<<bil<<'\n';
+
+    bil = -20;  //penugasan nilai negatif ke integer
+
+    cout <<"isi bil             = "<<bil<<'\n';
+
+    cout <<"isi jum_penduduk    = "<<jum_penduduk<<'\n';
+    cout <<"isi bil_float       = "<<bil_float<<'\n';
+
+    cout <<"isi a (float)       = "<<a<<'\n';
+    cout <<"isi b (double)      = "<<b<<'\n';
+
+}
+    return 0;
