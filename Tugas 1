@@ -1,0 +1,43 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main()
+
+{
+    // program yang dapat digunakan untuk mencatat biodata dan menghitung umur
+
+    string namadpn;
+    string namakhir;
+    string bulan;
+	int tgl;
+	int tahunlhr;
+	int umur;
+
+    cout << "Masukkan Biodata Anda" << "\n";
+
+    cout << "Nama Depan    : ";
+    cin >> namadpn;
+
+    cout << "Nama Belakang : ";
+    cin >> namakhir;
+
+    cout << "Tanggal Lahir" << "\n";
+
+    cout << "Tanggal       : ";
+    cin >> tgl;
+
+    cout << "Bulan         : ";
+    cin >> bulan;
+
+    cout << "Tahun         : ";
+    cin >> tahunlhr;
+
+    system("cls");
+
+    umur=2017-tahunlhr;
+
+    cout << "Nama Anda           : "<<namadpn <<" " <<namakhir<<endl;
+    cout << "Tanggal Lahir Anda  : "<<tgl <<" " <<bulan <<" " <<tahunlhr <<endl;
+    cout << "Umur Anda           : "<<umur <<" Tahun" <<endl;
+	return 0;
+}
