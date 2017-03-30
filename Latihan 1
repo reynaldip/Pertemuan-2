@@ -1,0 +1,28 @@
+/*
+Nama source file : operator aritmatika
+*/
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int p;
+    int l;
+    long L;
+    long K;
+
+    cout <<"Berapa panjangnya? ";
+    cin >> p;
+
+    cout <<"Berapa lebarnya? ";
+    cin >> l;
+
+    L = p*l;
+    K = p*2+l*2;
+
+    cout <<"L = "<<L<<'\n';
+    cout <<"K = "<<K<<'\n';
+
+    return 0;
+}
